@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */; };
+		AED31B762B8E45EC00CE0402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B752B8E45EC00CE0402 /* ContentView.swift */; };
+		AED31B782B8E45EE00CE0402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED31B772B8E45EE00CE0402 /* Assets.xcassets */; };
+		AED31B7B2B8E45EE00CE0402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED31B7A2B8E45EE00CE0402 /* Preview Assets.xcassets */; };
+		AED31B852B8E45EE00CE0402 /* Guitar_ExploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B842B8E45EE00CE0402 /* Guitar_ExploreTests.swift */; };
+		AED31B8F2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */; };
+		AED31B912B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AED31B812B8E45EE00CE0402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED31B682B8E45EC00CE0402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED31B6F2B8E45EC00CE0402;
+			remoteInfo = "Guitar Explore";
+		};
+		AED31B8B2B8E45EE00CE0402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AED31B682B8E45EC00CE0402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AED31B6F2B8E45EC00CE0402;
+			remoteInfo = "Guitar Explore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AED31B702B8E45EC00CE0402 /* Guitar Explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar Explore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreApp.swift; sourceTree = "<group>"; };
+		AED31B752B8E45EC00CE0402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AED31B772B8E45EE00CE0402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AED31B7A2B8E45EE00CE0402 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AED31B802B8E45EE00CE0402 /* Guitar ExploreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar ExploreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED31B842B8E45EE00CE0402 /* Guitar_ExploreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreTests.swift; sourceTree = "<group>"; };
+		AED31B8A2B8E45EE00CE0402 /* Guitar ExploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar ExploreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreUITests.swift; sourceTree = "<group>"; };
+		AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AED31B6D2B8E45EC00CE0402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED31B7D2B8E45EE00CE0402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED31B872B8E45EE00CE0402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AED31B672B8E45EC00CE0402 = {
+			isa = PBXGroup;
+			children = (
+				AED31B722B8E45EC00CE0402 /* Guitar Explore */,
+				AED31B832B8E45EE00CE0402 /* Guitar ExploreTests */,
+				AED31B8D2B8E45EE00CE0402 /* Guitar ExploreUITests */,
+				AED31B712B8E45EC00CE0402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AED31B712B8E45EC00CE0402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AED31B702B8E45EC00CE0402 /* Guitar Explore.app */,
+				AED31B802B8E45EE00CE0402 /* Guitar ExploreTests.xctest */,
+				AED31B8A2B8E45EE00CE0402 /* Guitar ExploreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AED31B722B8E45EC00CE0402 /* Guitar Explore */ = {
+			isa = PBXGroup;
+			children = (
+				AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */,
+				AED31B752B8E45EC00CE0402 /* ContentView.swift */,
+				AED31B772B8E45EE00CE0402 /* Assets.xcassets */,
+				AED31B792B8E45EE00CE0402 /* Preview Content */,
+			);
+			path = "Guitar Explore";
+			sourceTree = "<group>";
+		};
+		AED31B792B8E45EE00CE0402 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AED31B7A2B8E45EE00CE0402 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AED31B832B8E45EE00CE0402 /* Guitar ExploreTests */ = {
+			isa = PBXGroup;
+			children = (
+				AED31B842B8E45EE00CE0402 /* Guitar_ExploreTests.swift */,
+			);
+			path = "Guitar ExploreTests";
+			sourceTree = "<group>";
+		};
+		AED31B8D2B8E45EE00CE0402 /* Guitar ExploreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */,
+				AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */,
+			);
+			path = "Guitar ExploreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AED31B6F2B8E45EC00CE0402 /* Guitar Explore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED31B942B8E45EE00CE0402 /* Build configuration list for PBXNativeTarget "Guitar Explore" */;
+			buildPhases = (
+				AED31B6C2B8E45EC00CE0402 /* Sources */,
+				AED31B6D2B8E45EC00CE0402 /* Frameworks */,
+				AED31B6E2B8E45EC00CE0402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guitar Explore";
+			productName = "Guitar Explore";
+			productReference = AED31B702B8E45EC00CE0402 /* Guitar Explore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AED31B7F2B8E45EE00CE0402 /* Guitar ExploreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED31B972B8E45EE00CE0402 /* Build configuration list for PBXNativeTarget "Guitar ExploreTests" */;
+			buildPhases = (
+				AED31B7C2B8E45EE00CE0402 /* Sources */,
+				AED31B7D2B8E45EE00CE0402 /* Frameworks */,
+				AED31B7E2B8E45EE00CE0402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED31B822B8E45EE00CE0402 /* PBXTargetDependency */,
+			);
+			name = "Guitar ExploreTests";
+			productName = "Guitar ExploreTests";
+			productReference = AED31B802B8E45EE00CE0402 /* Guitar ExploreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AED31B892B8E45EE00CE0402 /* Guitar ExploreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED31B9A2B8E45EE00CE0402 /* Build configuration list for PBXNativeTarget "Guitar ExploreUITests" */;
+			buildPhases = (
+				AED31B862B8E45EE00CE0402 /* Sources */,
+				AED31B872B8E45EE00CE0402 /* Frameworks */,
+				AED31B882B8E45EE00CE0402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AED31B8C2B8E45EE00CE0402 /* PBXTargetDependency */,
+			);
+			name = "Guitar ExploreUITests";
+			productName = "Guitar ExploreUITests";
+			productReference = AED31B8A2B8E45EE00CE0402 /* Guitar ExploreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AED31B682B8E45EC00CE0402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					AED31B6F2B8E45EC00CE0402 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					AED31B7F2B8E45EE00CE0402 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AED31B6F2B8E45EC00CE0402;
+					};
+					AED31B892B8E45EE00CE0402 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AED31B6F2B8E45EC00CE0402;
+					};
+				};
+			};
+			buildConfigurationList = AED31B6B2B8E45EC00CE0402 /* Build configuration list for PBXProject "Guitar Explore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AED31B672B8E45EC00CE0402;
+			productRefGroup = AED31B712B8E45EC00CE0402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AED31B6F2B8E45EC00CE0402 /* Guitar Explore */,
+				AED31B7F2B8E45EE00CE0402 /* Guitar ExploreTests */,
+				AED31B892B8E45EE00CE0402 /* Guitar ExploreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AED31B6E2B8E45EC00CE0402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED31B7B2B8E45EE00CE0402 /* Preview Assets.xcassets in Resources */,
+				AED31B782B8E45EE00CE0402 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED31B7E2B8E45EE00CE0402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED31B882B8E45EE00CE0402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AED31B6C2B8E45EC00CE0402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED31B762B8E45EC00CE0402 /* ContentView.swift in Sources */,
+				AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED31B7C2B8E45EE00CE0402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED31B852B8E45EE00CE0402 /* Guitar_ExploreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED31B862B8E45EE00CE0402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED31B912B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift in Sources */,
+				AED31B8F2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AED31B822B8E45EE00CE0402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED31B6F2B8E45EC00CE0402 /* Guitar Explore */;
+			targetProxy = AED31B812B8E45EE00CE0402 /* PBXContainerItemProxy */;
+		};
+		AED31B8C2B8E45EE00CE0402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AED31B6F2B8E45EC00CE0402 /* Guitar Explore */;
+			targetProxy = AED31B8B2B8E45EE00CE0402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AED31B922B8E45EE00CE0402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AED31B932B8E45EE00CE0402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AED31B952B8E45EE00CE0402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guitar Explore/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SKHKY2P37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tolutech.Guitar-Explore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AED31B962B8E45EE00CE0402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Guitar Explore/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SKHKY2P37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tolutech.Guitar-Explore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AED31B982B8E45EE00CE0402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SKHKY2P37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tolutech.Guitar-ExploreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar Explore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guitar Explore";
+			};
+			name = Debug;
+		};
+		AED31B992B8E45EE00CE0402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SKHKY2P37;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tolutech.Guitar-ExploreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guitar Explore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Guitar Explore";
+			};
+			name = Release;
+		};
+		AED31B9B2B8E45EE00CE0402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SKHKY2P37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tolutech.Guitar-ExploreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guitar Explore";
+			};
+			name = Debug;
+		};
+		AED31B9C2B8E45EE00CE0402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SKHKY2P37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tolutech.Guitar-ExploreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Guitar Explore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AED31B6B2B8E45EC00CE0402 /* Build configuration list for PBXProject "Guitar Explore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED31B922B8E45EE00CE0402 /* Debug */,
+				AED31B932B8E45EE00CE0402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED31B942B8E45EE00CE0402 /* Build configuration list for PBXNativeTarget "Guitar Explore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED31B952B8E45EE00CE0402 /* Debug */,
+				AED31B962B8E45EE00CE0402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED31B972B8E45EE00CE0402 /* Build configuration list for PBXNativeTarget "Guitar ExploreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED31B982B8E45EE00CE0402 /* Debug */,
+				AED31B992B8E45EE00CE0402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED31B9A2B8E45EE00CE0402 /* Build configuration list for PBXNativeTarget "Guitar ExploreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AED31B9B2B8E45EE00CE0402 /* Debug */,
+				AED31B9C2B8E45EE00CE0402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AED31B682B8E45EC00CE0402 /* Project object */;
+}
