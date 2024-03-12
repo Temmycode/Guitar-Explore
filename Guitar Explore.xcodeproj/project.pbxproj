@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2969F02B8F24EC00639999 /* BrandCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2969EF2B8F24EC00639999 /* BrandCard.swift */; };
+		AE2969F22B8F291400639999 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2969F12B8F291400639999 /* BrandModel.swift */; };
+		AE2969F42B8F29ED00639999 /* BrandData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2969F32B8F29ED00639999 /* BrandData.swift */; };
+		AE2969F62B8F2BAB00639999 /* GuitarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2969F52B8F2BAB00639999 /* GuitarModel.swift */; };
+		AE2969F82B8F2DF100639999 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2969F72B8F2DF100639999 /* CustomFont.swift */; };
+		AE2969FE2B8F2E9200639999 /* LexendMega-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE2969FA2B8F2E9200639999 /* LexendMega-Bold.ttf */; };
+		AE2969FF2B8F2E9200639999 /* LexendMega-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE2969FB2B8F2E9200639999 /* LexendMega-Medium.ttf */; };
+		AE296A002B8F2E9200639999 /* LexendMega-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE2969FC2B8F2E9200639999 /* LexendMega-Regular.ttf */; };
+		AE296A012B8F2E9200639999 /* LexendMega-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE2969FD2B8F2E9200639999 /* LexendMega-Light.ttf */; };
+		AE296A062B8F32E700639999 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE296A052B8F32E700639999 /* HomeView.swift */; };
+		AE296A082B8F337200639999 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE296A072B8F337200639999 /* Avatar.swift */; };
+		AE296A0A2B8F3D1D00639999 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE296A092B8F3D1D00639999 /* TabBarView.swift */; };
+		AE296A0C2B8F458000639999 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE296A0B2B8F458000639999 /* FavouriteView.swift */; };
 		AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */; };
 		AED31B762B8E45EC00CE0402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B752B8E45EC00CE0402 /* ContentView.swift */; };
 		AED31B782B8E45EE00CE0402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED31B772B8E45EE00CE0402 /* Assets.xcassets */; };
@@ -14,6 +27,8 @@
 		AED31B852B8E45EE00CE0402 /* Guitar_ExploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B842B8E45EE00CE0402 /* Guitar_ExploreTests.swift */; };
 		AED31B8F2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */; };
 		AED31B912B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */; };
+		AED31B9E2B8E4B8200CE0402 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B9D2B8E4B8200CE0402 /* CustomButton.swift */; };
+		AEFFF5752B9F718E0040A271 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFF5742B9F718E0040A271 /* PageIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE2969EF2B8F24EC00639999 /* BrandCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCard.swift; sourceTree = "<group>"; };
+		AE2969F12B8F291400639999 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
+		AE2969F32B8F29ED00639999 /* BrandData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandData.swift; sourceTree = "<group>"; };
+		AE2969F52B8F2BAB00639999 /* GuitarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarModel.swift; sourceTree = "<group>"; };
+		AE2969F72B8F2DF100639999 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		AE2969FA2B8F2E9200639999 /* LexendMega-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendMega-Bold.ttf"; sourceTree = "<group>"; };
+		AE2969FB2B8F2E9200639999 /* LexendMega-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendMega-Medium.ttf"; sourceTree = "<group>"; };
+		AE2969FC2B8F2E9200639999 /* LexendMega-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendMega-Regular.ttf"; sourceTree = "<group>"; };
+		AE2969FD2B8F2E9200639999 /* LexendMega-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendMega-Light.ttf"; sourceTree = "<group>"; };
+		AE296A022B8F2EC900639999 /* Guitar-Explore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Guitar-Explore-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AE296A052B8F32E700639999 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AE296A072B8F337200639999 /* Avatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		AE296A092B8F3D1D00639999 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		AE296A0B2B8F458000639999 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
 		AED31B702B8E45EC00CE0402 /* Guitar Explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar Explore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreApp.swift; sourceTree = "<group>"; };
 		AED31B752B8E45EC00CE0402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +73,8 @@
 		AED31B8A2B8E45EE00CE0402 /* Guitar ExploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar ExploreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreUITests.swift; sourceTree = "<group>"; };
 		AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AED31B9D2B8E4B8200CE0402 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AEFFF5742B9F718E0040A271 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +102,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE2969F92B8F2E9200639999 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AE2969FA2B8F2E9200639999 /* LexendMega-Bold.ttf */,
+				AE2969FB2B8F2E9200639999 /* LexendMega-Medium.ttf */,
+				AE2969FC2B8F2E9200639999 /* LexendMega-Regular.ttf */,
+				AE2969FD2B8F2E9200639999 /* LexendMega-Light.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		AED31B672B8E45EC00CE0402 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +136,23 @@
 		AED31B722B8E45EC00CE0402 /* Guitar Explore */ = {
 			isa = PBXGroup;
 			children = (
+				AE296A022B8F2EC900639999 /* Guitar-Explore-Info.plist */,
+				AE2969F92B8F2E9200639999 /* Font */,
 				AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */,
 				AED31B752B8E45EC00CE0402 /* ContentView.swift */,
 				AED31B772B8E45EE00CE0402 /* Assets.xcassets */,
 				AED31B792B8E45EE00CE0402 /* Preview Content */,
+				AED31B9D2B8E4B8200CE0402 /* CustomButton.swift */,
+				AE2969EF2B8F24EC00639999 /* BrandCard.swift */,
+				AE296A052B8F32E700639999 /* HomeView.swift */,
+				AE2969F12B8F291400639999 /* BrandModel.swift */,
+				AE2969F32B8F29ED00639999 /* BrandData.swift */,
+				AE2969F52B8F2BAB00639999 /* GuitarModel.swift */,
+				AE2969F72B8F2DF100639999 /* CustomFont.swift */,
+				AE296A072B8F337200639999 /* Avatar.swift */,
+				AE296A092B8F3D1D00639999 /* TabBarView.swift */,
+				AE296A0B2B8F458000639999 /* FavouriteView.swift */,
+				AEFFF5742B9F718E0040A271 /* PageIndicator.swift */,
 			);
 			path = "Guitar Explore";
 			sourceTree = "<group>";
@@ -231,8 +286,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2969FE2B8F2E9200639999 /* LexendMega-Bold.ttf in Resources */,
+				AE2969FF2B8F2E9200639999 /* LexendMega-Medium.ttf in Resources */,
 				AED31B7B2B8E45EE00CE0402 /* Preview Assets.xcassets in Resources */,
+				AE296A002B8F2E9200639999 /* LexendMega-Regular.ttf in Resources */,
 				AED31B782B8E45EE00CE0402 /* Assets.xcassets in Resources */,
+				AE296A012B8F2E9200639999 /* LexendMega-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE296A062B8F32E700639999 /* HomeView.swift in Sources */,
+				AE296A0A2B8F3D1D00639999 /* TabBarView.swift in Sources */,
 				AED31B762B8E45EC00CE0402 /* ContentView.swift in Sources */,
 				AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */,
+				AEFFF5752B9F718E0040A271 /* PageIndicator.swift in Sources */,
+				AE2969F22B8F291400639999 /* BrandModel.swift in Sources */,
+				AE2969F42B8F29ED00639999 /* BrandData.swift in Sources */,
+				AED31B9E2B8E4B8200CE0402 /* CustomButton.swift in Sources */,
+				AE2969F82B8F2DF100639999 /* CustomFont.swift in Sources */,
+				AE2969F62B8F2BAB00639999 /* GuitarModel.swift in Sources */,
+				AE296A082B8F337200639999 /* Avatar.swift in Sources */,
+				AE296A0C2B8F458000639999 /* FavouriteView.swift in Sources */,
+				AE2969F02B8F24EC00639999 /* BrandCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -425,17 +495,21 @@
 				DEVELOPMENT_TEAM = 6SKHKY2P37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guitar-Explore-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Guitar Explore";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tolutech.Guitar-Explore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolutech.GuitarExplore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -454,17 +528,21 @@
 				DEVELOPMENT_TEAM = 6SKHKY2P37;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Guitar-Explore-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Guitar Explore";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tolutech.Guitar-Explore";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tolutech.GuitarExplore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

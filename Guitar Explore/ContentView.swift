@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var currentTab: Tab = .explore
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            switch currentTab {
+            case .explore:
+                HomeView()
+            case .favourites:
+                FavouriteView()
+            }
+            
+            TabBarView(currentTab: $currentTab)
+                .frame(maxHeight: .infinity, alignment: .bottom)
+                .padding(.horizontal, 16)
+                .padding(.bottom, 15)
         }
-        .padding()
     }
 }
 
