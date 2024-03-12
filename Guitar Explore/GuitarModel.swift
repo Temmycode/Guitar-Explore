@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct GuitarModel {
+struct GuitarModel: Identifiable {
+    var id = UUID()
     var name: String
     var year: Int
     var brand: Brand
@@ -19,3 +20,10 @@ struct GuitarModel {
         Image(imageUrl)
     }
 }
+
+let guitars: [GuitarModel] = [
+    GuitarModel(name: "FENDER STRATOCASTER", year: 1952, brand: .fender, title: "", subtitle: "", imageUrl: "strat"),
+    GuitarModel(name: "FENDER STRATOCASTER", year: 1952, brand: .fender, title: "", subtitle: "", imageUrl: "strat"),
+    GuitarModel(name: "FENDER STRATOCASTER", year: 1952, brand: .fender, title: "", subtitle: "", imageUrl: "strat"),
+    GuitarModel(name: "FENDER STRATOCASTER", year: 1952, brand: .fender, title: "", subtitle: "", imageUrl: "strat"),
+]

@@ -28,6 +28,11 @@
 		AED31B8F2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */; };
 		AED31B912B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */; };
 		AED31B9E2B8E4B8200CE0402 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B9D2B8E4B8200CE0402 /* CustomButton.swift */; };
+		AED8770F2BA086AB00329BC6 /* GuitarHanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED8770E2BA086AB00329BC6 /* GuitarHanger.swift */; };
+		AED877112BA088C600329BC6 /* GuitarCollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877102BA088C600329BC6 /* GuitarCollectionScreen.swift */; };
+		AED877132BA08C2100329BC6 /* BrandLogoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877122BA08C2100329BC6 /* BrandLogoCard.swift */; };
+		AED877152BA0902400329BC6 /* GuitarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877142BA0902400329BC6 /* GuitarCard.swift */; };
+		AED877172BA0978800329BC6 /* MyBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877162BA0978800329BC6 /* MyBackButton.swift */; };
 		AEFFF5752B9F718E0040A271 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFF5742B9F718E0040A271 /* PageIndicator.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +79,11 @@
 		AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreUITests.swift; sourceTree = "<group>"; };
 		AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AED31B9D2B8E4B8200CE0402 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AED8770E2BA086AB00329BC6 /* GuitarHanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarHanger.swift; sourceTree = "<group>"; };
+		AED877102BA088C600329BC6 /* GuitarCollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarCollectionScreen.swift; sourceTree = "<group>"; };
+		AED877122BA08C2100329BC6 /* BrandLogoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLogoCard.swift; sourceTree = "<group>"; };
+		AED877142BA0902400329BC6 /* GuitarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarCard.swift; sourceTree = "<group>"; };
+		AED877162BA0978800329BC6 /* MyBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBackButton.swift; sourceTree = "<group>"; };
 		AEFFF5742B9F718E0040A271 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,12 +150,17 @@
 				AE2969F92B8F2E9200639999 /* Font */,
 				AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */,
 				AED31B752B8E45EC00CE0402 /* ContentView.swift */,
+				AED877102BA088C600329BC6 /* GuitarCollectionScreen.swift */,
+				AED877162BA0978800329BC6 /* MyBackButton.swift */,
+				AED877122BA08C2100329BC6 /* BrandLogoCard.swift */,
+				AED8770E2BA086AB00329BC6 /* GuitarHanger.swift */,
 				AED31B772B8E45EE00CE0402 /* Assets.xcassets */,
 				AED31B792B8E45EE00CE0402 /* Preview Content */,
 				AED31B9D2B8E4B8200CE0402 /* CustomButton.swift */,
 				AE2969EF2B8F24EC00639999 /* BrandCard.swift */,
 				AE296A052B8F32E700639999 /* HomeView.swift */,
 				AE2969F12B8F291400639999 /* BrandModel.swift */,
+				AED877142BA0902400329BC6 /* GuitarCard.swift */,
 				AE2969F32B8F29ED00639999 /* BrandData.swift */,
 				AE2969F52B8F2BAB00639999 /* GuitarModel.swift */,
 				AE2969F72B8F2DF100639999 /* CustomFont.swift */,
@@ -316,14 +331,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED877132BA08C2100329BC6 /* BrandLogoCard.swift in Sources */,
 				AE296A062B8F32E700639999 /* HomeView.swift in Sources */,
 				AE296A0A2B8F3D1D00639999 /* TabBarView.swift in Sources */,
+				AED877112BA088C600329BC6 /* GuitarCollectionScreen.swift in Sources */,
 				AED31B762B8E45EC00CE0402 /* ContentView.swift in Sources */,
 				AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */,
 				AEFFF5752B9F718E0040A271 /* PageIndicator.swift in Sources */,
 				AE2969F22B8F291400639999 /* BrandModel.swift in Sources */,
+				AED877152BA0902400329BC6 /* GuitarCard.swift in Sources */,
 				AE2969F42B8F29ED00639999 /* BrandData.swift in Sources */,
 				AED31B9E2B8E4B8200CE0402 /* CustomButton.swift in Sources */,
+				AED877172BA0978800329BC6 /* MyBackButton.swift in Sources */,
+				AED8770F2BA086AB00329BC6 /* GuitarHanger.swift in Sources */,
 				AE2969F82B8F2DF100639999 /* CustomFont.swift in Sources */,
 				AE2969F62B8F2BAB00639999 /* GuitarModel.swift in Sources */,
 				AE296A082B8F337200639999 /* Avatar.swift in Sources */,

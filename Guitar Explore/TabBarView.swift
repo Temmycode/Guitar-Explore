@@ -25,6 +25,7 @@ struct TabBarView: View {
                     VStack(spacing: 1.0) {
                         Image(systemName: currentTab == tab.tab ? tab.activeImage : tab.image)
                         Text(tab.name)
+                            .foregroundStyle(.white)
                             .customFont(.caption)
                             .fontWeight(.medium)
                     }
@@ -36,7 +37,7 @@ struct TabBarView: View {
         .padding(.horizontal, 75)
         .frame(maxWidth: .infinity)
         .frame(height: 51)
-        .background(.background1)
+        .background(.brown1)
         .clipShape(RoundedRectangle(cornerRadius: 40))
         .overlay {
             RoundedRectangle(cornerRadius: 40)
