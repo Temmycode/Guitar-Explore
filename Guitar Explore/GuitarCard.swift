@@ -12,29 +12,48 @@ struct GuitarCard: View {
     var guitar: GuitarModel
     
     var body: some View {
-        VStack(alignment: .center) {
-            guitar.image
-                .resizable()
-                .scaledToFit()
-                .frame(height: 420.6)
-            
-            Spacer().frame(height: 40)
-            
-            VStack(alignment: .leading, spacing: 10.4) {
-                Text(guitar.name)
-                    .customFont(.title)
+        ZStack {
+            // MARK: GUITAR IMAGE AND TITLE
+            VStack(alignment: .center) {
+                guitar.image
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 136.5, height: 420.6)
                 
-                Text("in \(guitar.year)")
-                    .customFont(.title)
-                    .fontWeight(.light)
-                    .foregroundStyle(.black.opacity(0.4))
+                Spacer().frame(height: 40)
+                
+                VStack(alignment: .leading, spacing: 10.4) {
+                    Text(guitar.name)
+                        .customFont(.title)
+                        .frame(maxWidth: .infinity, maxHeight: 43, alignment: .leading)
+                    
+                    Text("in \(guitar.year)")
+                        .customFont(.title)
+                        .fontWeight(.light)
+                        .foregroundStyle(.black.opacity(0.4))
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
             }
-        }
-        .frame(width: 286, height: 530, alignment: .leading)
-        .onTapGesture {
-            showGuitarView.toggle()
-        }
-        .sheet(isPresented: $showGuitarView) {
+            .frame(width: 286, height: 530)
+            .onTapGesture {
+                showGuitarView.toggle()
+            }
+            .sheet(isPresented: $showGuitarView) {
+                GuitarInfoView(showGuitarView: $showGuitarView, guitar: guitar)
+            }
+            
+            // MARK: Guitar Hanger
+            HStack(spacing: 14) {
+                Circle()
+                    .foregroundStyle(.linearGradient(colors: [.white, .gray], startPoint: .topLeading, endPoint: .bottomTrailing))
+                    .frame(height: 10)
+                
+                Circle()
+                    .foregroundStyle(.linearGradient(colors: [.white, .gray], startPoint: .topLeading, endPoint: .bottomTrailing))
+                    .frame(height: 10)
+            }
+            .rotationEffect(guitar.brand == .fender ? Angle(degrees: -20) : Angle(degrees: 0))
+            .offset(x: 1.5, y: -190)
             
         }
     }

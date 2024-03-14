@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var currentTab: Tab = .explore
+    @AppStorage("isFirstOpen") var isFirstOpen: Bool = true
+    @State private var showOnboardingSheet = false
+    @State private var currentTab: Tab = .explore
     
     var body: some View {
         ZStack {
@@ -23,6 +25,14 @@ struct ContentView: View {
                 .frame(maxHeight: .infinity, alignment: .bottom)
                 .padding(.horizontal, 16)
                 .padding(.bottom, 15)
+        }
+        .sheet(isPresented: $showOnboardingSheet) {
+            OnboardingView(showOnboardingSheet: $showOnboardingSheet)
+        }
+        .onAppear {
+            if isFirstOpen {
+                showOnboardingSheet = true
+            }
         }
     }
 }

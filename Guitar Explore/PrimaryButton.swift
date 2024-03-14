@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomButton: View {
+struct PrimaryButton: View {
     @State var pressed = false
     @State var isReleased = false
     var text: String
@@ -19,7 +19,7 @@ struct CustomButton: View {
             .font(.title2)
             .frame(maxWidth: .infinity)
             .padding()
-            .background(.red2)
+            .background(color ?? .red2)
             .clipShape(
                 RoundedRectangle(cornerRadius: 12)
             )
@@ -33,11 +33,11 @@ struct CustomButton: View {
                     .shadow(color: .black, radius: 0, x: 4, y: 4)
             }
             .foregroundStyle(.black)
-            .onTapGesture {
-                withAnimation(.bouncy(duration: 0.5)) {
-                    pressed = true
-                }
-            }
+//            .onTapGesture {
+//                withAnimation(.bouncy(duration: 0.5)) {
+//                    pressed = true
+//                }
+//            }
         //            .onLongPressGesture {
         //                if pressed == false {
         //                    withAnimation(.easeInOut(duration: 0.5)) {
@@ -45,19 +45,19 @@ struct CustomButton: View {
         //                    }
         //                }
         //            }
-            .onChange(of: pressed) { newValue in
-                if  newValue == true {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
-                        withAnimation(.bouncy(duration: 0.4)) {
-                            pressed = false
-                        }
-                    }
-                }
-            }
+//            .onChange(of: pressed) { newValue in
+//                if  newValue == true {
+//                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+//                        withAnimation(.bouncy(duration: 0.4)) {
+//                            pressed = false
+//                        }
+//                    }
+//                }
+//            }
         
     }
 }
 
 #Preview {
-    CustomButton(text: "Log Out")
+    PrimaryButton(text: "Log Out")
 }
