@@ -8,30 +8,26 @@
 import SwiftUI
 
 struct TabBarView: View {
-    @Binding var currentTab: Tab
-    @State var tabs: [TabBar] = [
-        TabBar(name: "Explore", image: "binoculars", activeImage: "binoculars.fill", tab: .explore),
-        TabBar(name: "Favourites", image: "heart", activeImage: "heart.fill", tab: .favourites)
-    ]
+    @Binding var currentTab: Tabs
     
     var body: some View {
         HStack {
-            ForEach(tabs) { tab in
+            ForEach(Tabs.allCases, id: \.self) { tab in
                 Button {
                     withAnimation {
-                        currentTab = tab.tab
+                        currentTab = tab
                     }
                 } label: {
                     VStack(spacing: 1.0) {
-                        Image(systemName: currentTab == tab.tab ? tab.activeImage : tab.image)
-                        Text(tab.name)
+                        Image(systemName: tab.icon(isActive: currentTab == tab))
+                        Text(tab.rawValue)
                             .foregroundStyle(.white)
                             .customFont(.caption)
                             .fontWeight(.medium)
                     }
                 }
                 .foregroundStyle(.black)
-                tab.tab == Tab.explore ? Spacer() : nil
+                tab == Tabs.explore ? Spacer() : nil
             }
         } // this contains the items of each tab bar
         .padding(.horizontal, 75)
@@ -52,19 +48,20 @@ struct TabBarView: View {
 }
 
 #Preview {
-    TabBarView(currentTab: .constant(Tab.explore))
+    TabBarView(currentTab: .constant(Tabs.explore))
 }
 
 
-struct TabBar: Identifiable {
-    var id = UUID()
-    var name: String
-    var image: String
-    var activeImage: String
-    var tab: Tab
-}
-
-enum Tab {
-    case explore
-    case favourites
+enum Tabs: String, CaseIterable {
+    case explore = "Explore"
+    case favourites = "Favourites"
+    
+    func icon(isActive: Bool) -> String {
+        switch self {
+        case .explore:
+            return isActive ? "binoculars.fill" : "binoculars"
+        case .favourites:
+            return isActive ? "heart.fill" : "heart"
+        }
+    }
 }

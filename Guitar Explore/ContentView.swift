@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @AppStorage("isFirstOpen") var isFirstOpen: Bool = true
     @State private var showOnboardingSheet = false
-    @State private var currentTab: Tab = .explore
+    @State private var currentTab: Tabs = .explore
     
     var body: some View {
         ZStack {
