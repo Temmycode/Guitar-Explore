@@ -13,7 +13,7 @@ struct BrandCard: View {
     
     var body: some View {
         NavigationLink {
-            GuitarCollectionScreen(brand: brand)
+            GuitarCollectionView(brand: brand)
         } label: {
             VStack(alignment: .center) {
                 Spacer()
@@ -36,15 +36,9 @@ struct BrandCard: View {
                 RoundedRectangle(cornerRadius: 12)
                     .shadow(color: .black, radius: 0, x: 5.25, y: 5.25)
             }
+            .containerRelativeFrame(.horizontal, count: 1, spacing: 10)
         }
         .foregroundStyle(.black)
-
-//        .padding(2)
-//        .onTapGesture {
-//            withAnimation(.easeInOut) {
-//                isPressed = true
-//            }
-//        }
     }
 }
 

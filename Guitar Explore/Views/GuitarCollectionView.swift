@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GuitarCollectionScreen: View {
+struct GuitarCollectionView: View {
     var brand: BrandModel
     
     var body: some View {
@@ -34,7 +34,6 @@ struct GuitarCollectionScreen: View {
                     HStack {
                         ForEach(guitars) { guitar in
                             GuitarCard(guitar: guitar)
-                                .containerRelativeFrame(.horizontal, count: 1, spacing: 10.0)
                         }
                     }
                 }
@@ -54,5 +53,5 @@ struct GuitarCollectionScreen: View {
 }
 
 #Preview {
-    GuitarCollectionScreen(brand: brands[0])
+    GuitarCollectionView(brand: brands[0])
 }

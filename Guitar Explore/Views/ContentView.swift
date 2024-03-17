@@ -17,8 +17,8 @@ struct ContentView: View {
             switch currentTab {
             case .explore:
                 HomeView()
-            case .favourites:
-                FavouriteView()
+            case .customshop:
+                CustomShopView()
             }
             
             TabBarView(currentTab: $currentTab)

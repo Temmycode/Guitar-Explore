@@ -14,7 +14,7 @@ struct TabBarView: View {
         HStack {
             ForEach(Tabs.allCases, id: \.self) { tab in
                 Button {
-                    withAnimation {
+                    withAnimation(.spring) {
                         currentTab = tab
                     }
                 } label: {
@@ -53,15 +53,15 @@ struct TabBarView: View {
 
 
 enum Tabs: String, CaseIterable {
-    case explore = "Explore"
-    case favourites = "Favourites"
+    case explore = "EXPLORE"
+    case customshop = "SHOP"
     
     func icon(isActive: Bool) -> String {
         switch self {
         case .explore:
             return isActive ? "binoculars.fill" : "binoculars"
-        case .favourites:
-            return isActive ? "heart.fill" : "heart"
+        case .customshop:
+            return isActive ? "gearshape.fill" : "gearshape"
         }
     }
 }
