@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import GoogleSignIn
 
 @main
 struct Guitar_ExploreApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GoogleSignInMockView()
+//            ContentView()
+//                .onOpenURL { url in
+//                    GIDSignIn
+//                        .sharedInstance.handle(url)
+//                }
         }
     }
 }

@@ -22,20 +22,21 @@
 		AE296A0C2B8F458000639999 /* CustomShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE296A0B2B8F458000639999 /* CustomShopView.swift */; };
 		AE2F3E842BA3444300AF9067 /* GuitarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F3E832BA3444300AF9067 /* GuitarInfoView.swift */; };
 		AE2F3E862BA345C000AF9067 /* RoundedCornerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F3E852BA345C000AF9067 /* RoundedCornerExtension.swift */; };
+		AE7205F62BAB3D15000193F9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7205F52BAB3D15000193F9 /* Repository.swift */; };
 		AE9D08F22BA3183400966651 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D08F12BA3183400966651 /* OnboardingView.swift */; };
 		AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */; };
 		AED31B762B8E45EC00CE0402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B752B8E45EC00CE0402 /* ContentView.swift */; };
 		AED31B782B8E45EE00CE0402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED31B772B8E45EE00CE0402 /* Assets.xcassets */; };
 		AED31B7B2B8E45EE00CE0402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED31B7A2B8E45EE00CE0402 /* Preview Assets.xcassets */; };
-		AED31B852B8E45EE00CE0402 /* Guitar_ExploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B842B8E45EE00CE0402 /* Guitar_ExploreTests.swift */; };
-		AED31B8F2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */; };
-		AED31B912B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */; };
 		AED31B9E2B8E4B8200CE0402 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B9D2B8E4B8200CE0402 /* PrimaryButton.swift */; };
 		AED8770F2BA086AB00329BC6 /* GuitarHanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED8770E2BA086AB00329BC6 /* GuitarHanger.swift */; };
 		AED877112BA088C600329BC6 /* GuitarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877102BA088C600329BC6 /* GuitarCollectionView.swift */; };
 		AED877132BA08C2100329BC6 /* BrandLogoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877122BA08C2100329BC6 /* BrandLogoCard.swift */; };
 		AED877152BA0902400329BC6 /* GuitarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877142BA0902400329BC6 /* GuitarCard.swift */; };
 		AED877172BA0978800329BC6 /* MyBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877162BA0978800329BC6 /* MyBackButton.swift */; };
+		AEF9AFB22BAB4FCF00703781 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = AEF9AFB12BAB4FCF00703781 /* GoogleSignIn */; };
+		AEF9AFB42BAB4FCF00703781 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AEF9AFB32BAB4FCF00703781 /* GoogleSignInSwift */; };
+		AEF9AFB62BAB504A00703781 /* GoogleSignInMockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF9AFB52BAB504A00703781 /* GoogleSignInMockView.swift */; };
 		AEFFF5752B9F718E0040A271 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFFF5742B9F718E0040A271 /* PageIndicator.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		AE296A0B2B8F458000639999 /* CustomShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShopView.swift; sourceTree = "<group>"; };
 		AE2F3E832BA3444300AF9067 /* GuitarInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarInfoView.swift; sourceTree = "<group>"; };
 		AE2F3E852BA345C000AF9067 /* RoundedCornerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerExtension.swift; sourceTree = "<group>"; };
+		AE7205F52BAB3D15000193F9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		AE9D08F12BA3183400966651 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		AED31B702B8E45EC00CE0402 /* Guitar Explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar Explore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreApp.swift; sourceTree = "<group>"; };
@@ -80,16 +82,14 @@
 		AED31B772B8E45EE00CE0402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED31B7A2B8E45EE00CE0402 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AED31B802B8E45EE00CE0402 /* Guitar ExploreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar ExploreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AED31B842B8E45EE00CE0402 /* Guitar_ExploreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreTests.swift; sourceTree = "<group>"; };
 		AED31B8A2B8E45EE00CE0402 /* Guitar ExploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guitar ExploreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreUITests.swift; sourceTree = "<group>"; };
-		AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AED31B9D2B8E4B8200CE0402 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		AED8770E2BA086AB00329BC6 /* GuitarHanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarHanger.swift; sourceTree = "<group>"; };
 		AED877102BA088C600329BC6 /* GuitarCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarCollectionView.swift; sourceTree = "<group>"; };
 		AED877122BA08C2100329BC6 /* BrandLogoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLogoCard.swift; sourceTree = "<group>"; };
 		AED877142BA0902400329BC6 /* GuitarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarCard.swift; sourceTree = "<group>"; };
 		AED877162BA0978800329BC6 /* MyBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBackButton.swift; sourceTree = "<group>"; };
+		AEF9AFB52BAB504A00703781 /* GoogleSignInMockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInMockView.swift; sourceTree = "<group>"; };
 		AEFFF5742B9F718E0040A271 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF9AFB22BAB4FCF00703781 /* GoogleSignIn in Frameworks */,
+				AEF9AFB42BAB4FCF00703781 /* GoogleSignInSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				AED31B722B8E45EC00CE0402 /* Guitar Explore */,
-				AED31B832B8E45EE00CE0402 /* Guitar ExploreTests */,
-				AED31B8D2B8E45EE00CE0402 /* Guitar ExploreUITests */,
 				AED31B712B8E45EC00CE0402 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -168,6 +168,8 @@
 			children = (
 				AE296A022B8F2EC900639999 /* Guitar-Explore-Info.plist */,
 				AED31B772B8E45EE00CE0402 /* Assets.xcassets */,
+				AE7205F52BAB3D15000193F9 /* Repository.swift */,
+				AEF9AFB52BAB504A00703781 /* GoogleSignInMockView.swift */,
 				AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */,
 				AE2F3E852BA345C000AF9067 /* RoundedCornerExtension.swift */,
 				AED877162BA0978800329BC6 /* MyBackButton.swift */,
@@ -197,23 +199,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		AED31B832B8E45EE00CE0402 /* Guitar ExploreTests */ = {
-			isa = PBXGroup;
-			children = (
-				AED31B842B8E45EE00CE0402 /* Guitar_ExploreTests.swift */,
-			);
-			path = "Guitar ExploreTests";
-			sourceTree = "<group>";
-		};
-		AED31B8D2B8E45EE00CE0402 /* Guitar ExploreUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AED31B8E2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift */,
-				AED31B902B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift */,
-			);
-			path = "Guitar ExploreUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,6 +215,10 @@
 			dependencies = (
 			);
 			name = "Guitar Explore";
+			packageProductDependencies = (
+				AEF9AFB12BAB4FCF00703781 /* GoogleSignIn */,
+				AEF9AFB32BAB4FCF00703781 /* GoogleSignInSwift */,
+			);
 			productName = "Guitar Explore";
 			productReference = AED31B702B8E45EC00CE0402 /* Guitar Explore.app */;
 			productType = "com.apple.product-type.application";
@@ -302,6 +291,9 @@
 				Base,
 			);
 			mainGroup = AED31B672B8E45EC00CE0402;
+			packageReferences = (
+				AEF9AFB02BAB4FCF00703781 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = AED31B712B8E45EC00CE0402 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -353,9 +345,11 @@
 				AE296A0A2B8F3D1D00639999 /* TabBarView.swift in Sources */,
 				AED877112BA088C600329BC6 /* GuitarCollectionView.swift in Sources */,
 				AED31B762B8E45EC00CE0402 /* ContentView.swift in Sources */,
+				AE7205F62BAB3D15000193F9 /* Repository.swift in Sources */,
 				AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */,
 				AEFFF5752B9F718E0040A271 /* PageIndicator.swift in Sources */,
 				AE2969F22B8F291400639999 /* BrandModel.swift in Sources */,
+				AEF9AFB62BAB504A00703781 /* GoogleSignInMockView.swift in Sources */,
 				AED877152BA0902400329BC6 /* GuitarCard.swift in Sources */,
 				AE2969F42B8F29ED00639999 /* BrandData.swift in Sources */,
 				AE2F3E842BA3444300AF9067 /* GuitarInfoView.swift in Sources */,
@@ -376,7 +370,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED31B852B8E45EE00CE0402 /* Guitar_ExploreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,8 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED31B912B8E45EE00CE0402 /* Guitar_ExploreUITestsLaunchTests.swift in Sources */,
-				AED31B8F2B8E45EE00CE0402 /* Guitar_ExploreUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,6 +697,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AEF9AFB02BAB4FCF00703781 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEF9AFB12BAB4FCF00703781 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEF9AFB02BAB4FCF00703781 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		AEF9AFB32BAB4FCF00703781 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEF9AFB02BAB4FCF00703781 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AED31B682B8E45EC00CE0402 /* Project object */;
 }

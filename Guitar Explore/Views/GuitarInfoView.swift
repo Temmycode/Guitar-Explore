@@ -27,13 +27,11 @@ struct GuitarInfoView: View {
                         .frame(height: 520)
                         .frame(maxWidth: .infinity)
                         .background(.brown1)
-                        .cornerRadius(20, corners: [.bottomLeft, .bottomRight])
+                        .clipShape(.rect(cornerRadii: .init(topLeading: 10, bottomLeading: 20, bottomTrailing: 20, topTrailing: 10)))
                         .overlay {
-                            RoundedCorner(radius: 20, corners: [.bottomLeft, .bottomRight])
-                                .stroke(lineWidth: 2.0)
+                            UnevenRoundedRectangle(cornerRadii: .init(topLeading: 10, bottomLeading: 20, bottomTrailing: 20, topTrailing: 10))
+                                .stroke(lineWidth: 2)
                         }
-                        
-                        .padding(.top, -2)
                         
                         // MARK: Nail Circles
                         VStack {

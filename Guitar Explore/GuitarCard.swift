@@ -56,6 +56,7 @@ struct GuitarCard: View {
             .offset(x: 1.5, y: -190)
             
         }
+        .containerRelativeFrame(.horizontal)
     }
 }
 
