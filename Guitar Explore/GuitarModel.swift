@@ -26,4 +26,6 @@ let guitars: [GuitarModel] = [
     GuitarModel(name: "FENDER TELECASTER", year: 1949, brand: .fender, title: "", subtitle: "", imageUrl: "tele"),
     GuitarModel(name: "FENDER JAZZMASTER", year: 1958, brand: .fender, title: "", subtitle: "", imageUrl: "jazzmaster"),
     GuitarModel(name: "FENDER JAGUAR", year: 1962, brand: .fender, title: "", subtitle: "", imageUrl: "jaguar"),
+    GuitarModel(name: "GIBSON LES PAUL", year: 1902, brand: .gibson, title: "", subtitle: "", imageUrl: "les paul"),
+    GuitarModel(name: "GIBSON ES-335", year: 1959, brand: .gibson, title: "", subtitle: "", imageUrl: "es 335"),
 ]

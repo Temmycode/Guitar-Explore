@@ -9,6 +9,11 @@ import SwiftUI
 
 struct GuitarCollectionView: View {
     var brand: BrandModel
+    private var brandGuitars: [GuitarModel] {
+        guitars.filter { guitar in
+            guitar.brand == brand.name
+        }
+    }
     
     var body: some View {
         NavigationStack {
@@ -32,7 +37,7 @@ struct GuitarCollectionView: View {
                 // MARK: Page View for list of guitars
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
-                        ForEach(guitars) { guitar in
+                        ForEach(brandGuitars) { guitar in
                             GuitarCard(guitar: guitar)
                         }
                     }

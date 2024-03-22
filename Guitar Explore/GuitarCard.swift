@@ -53,13 +53,14 @@ struct GuitarCard: View {
                     .frame(height: 10)
             }
             .rotationEffect(guitar.brand == .fender ? Angle(degrees: -20) : Angle(degrees: 0))
-            .offset(x: 1.5, y: -190)
+            .offset(x: 1.5, y: guitar.brand == .fender ? -190 : -210)
             
         }
+        .offset(x: 0, y: guitar.brand != .fender ? 25 : 0)
         .containerRelativeFrame(.horizontal)
     }
 }
 
 #Preview {
-    GuitarCard(guitar: guitars[0])
+    GuitarCard(guitar: guitars[5])
 }

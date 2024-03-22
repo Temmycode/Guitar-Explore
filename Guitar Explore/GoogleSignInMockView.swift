@@ -10,25 +10,15 @@ import GoogleSignIn
 import GoogleSignInSwift
 
 struct GoogleSignInMockView: View {
-    @State private var date = Date()
+    @Environment(AuthenticationViewModel.self) var repository
+    
     var body: some View {
-        DatePicker("Start Date", selection: $date)
-            .datePickerStyle(.compact)
-            .contextMenu {
-                Text("Temi")
-                Text("Temi")
-                Text("Temi")
-                Text("Temi")
-            } preview: {
-                VStack (alignment: .leading, spacing: 10) {
-                    Image("strat")
-                        .resizable()
-                        .scaledToFit()
-                    
-                    Text("Fender Stratocaster")
-                }
-            }
-
+        GoogleSignInButton(action: handleSignInButton)
+            .padding()
+    }
+    
+    func handleSignInButton() {
+        
     }
 }
 
