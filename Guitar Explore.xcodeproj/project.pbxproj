@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2534DF2BB06D2700689CAA /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2534DE2BB06D2700689CAA /* AccountView.swift */; };
+		AE2534E12BB06FEC00689CAA /* AccountListTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2534E02BB06FEC00689CAA /* AccountListTile.swift */; };
+		AE2534E32BB0871F00689CAA /* ApplicationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2534E22BB0871F00689CAA /* ApplicationConfig.swift */; };
 		AE2969F02B8F24EC00639999 /* BrandCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2969EF2B8F24EC00639999 /* BrandCard.swift */; };
 		AE2969F22B8F291400639999 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2969F12B8F291400639999 /* BrandModel.swift */; };
 		AE2969F42B8F29ED00639999 /* BrandData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2969F32B8F29ED00639999 /* BrandData.swift */; };
@@ -25,7 +28,6 @@
 		AE55DAA12BAC26B8001DA5CC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55DAA02BAC26B8001DA5CC /* User.swift */; };
 		AE7205F62BAB3D15000193F9 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7205F52BAB3D15000193F9 /* AuthenticationViewModel.swift */; };
 		AE9D08F22BA3183400966651 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D08F12BA3183400966651 /* OnboardingView.swift */; };
-		AEA5E1532BADC0B600BC80F1 /* gibson-les-paul-classic-honeyburst-with-case-36276-p-removebg-preview.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA5E1522BADC0B600BC80F1 /* gibson-les-paul-classic-honeyburst-with-case-36276-p-removebg-preview.png */; };
 		AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */; };
 		AED31B762B8E45EC00CE0402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED31B752B8E45EC00CE0402 /* ContentView.swift */; };
 		AED31B782B8E45EE00CE0402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED31B772B8E45EE00CE0402 /* Assets.xcassets */; };
@@ -36,6 +38,7 @@
 		AED877132BA08C2100329BC6 /* BrandLogoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877122BA08C2100329BC6 /* BrandLogoCard.swift */; };
 		AED877152BA0902400329BC6 /* GuitarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877142BA0902400329BC6 /* GuitarCard.swift */; };
 		AED877172BA0978800329BC6 /* MyBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED877162BA0978800329BC6 /* MyBackButton.swift */; };
+		AEED25CE2BB0E45700FA8484 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEED25CD2BB0E45700FA8484 /* AuthModel.swift */; };
 		AEF9AFB22BAB4FCF00703781 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = AEF9AFB12BAB4FCF00703781 /* GoogleSignIn */; };
 		AEF9AFB42BAB4FCF00703781 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AEF9AFB32BAB4FCF00703781 /* GoogleSignInSwift */; };
 		AEF9AFB62BAB504A00703781 /* GoogleSignInMockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF9AFB52BAB504A00703781 /* GoogleSignInMockView.swift */; };
@@ -60,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE2534DE2BB06D2700689CAA /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		AE2534E02BB06FEC00689CAA /* AccountListTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListTile.swift; sourceTree = "<group>"; };
+		AE2534E22BB0871F00689CAA /* ApplicationConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationConfig.swift; sourceTree = "<group>"; };
 		AE2969EF2B8F24EC00639999 /* BrandCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCard.swift; sourceTree = "<group>"; };
 		AE2969F12B8F291400639999 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		AE2969F32B8F29ED00639999 /* BrandData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandData.swift; sourceTree = "<group>"; };
@@ -79,7 +85,6 @@
 		AE55DAA02BAC26B8001DA5CC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AE7205F52BAB3D15000193F9 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		AE9D08F12BA3183400966651 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		AEA5E1522BADC0B600BC80F1 /* gibson-les-paul-classic-honeyburst-with-case-36276-p-removebg-preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gibson-les-paul-classic-honeyburst-with-case-36276-p-removebg-preview.png"; sourceTree = "<group>"; };
 		AED31B702B8E45EC00CE0402 /* Guitar Explore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guitar Explore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guitar_ExploreApp.swift; sourceTree = "<group>"; };
 		AED31B752B8E45EC00CE0402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +98,7 @@
 		AED877122BA08C2100329BC6 /* BrandLogoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLogoCard.swift; sourceTree = "<group>"; };
 		AED877142BA0902400329BC6 /* GuitarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarCard.swift; sourceTree = "<group>"; };
 		AED877162BA0978800329BC6 /* MyBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBackButton.swift; sourceTree = "<group>"; };
+		AEED25CD2BB0E45700FA8484 /* AuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
 		AEF9AFB52BAB504A00703781 /* GoogleSignInMockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInMockView.swift; sourceTree = "<group>"; };
 		AEFFF5742B9F718E0040A271 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +216,7 @@
 				AE296A0B2B8F458000639999 /* CustomShopView.swift */,
 				AE296A092B8F3D1D00639999 /* TabBarView.swift */,
 				AE296A052B8F32E700639999 /* HomeView.swift */,
+				AE2534DE2BB06D2700689CAA /* AccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,9 +245,10 @@
 				AE55DAA22BAC27A3001DA5CC /* Core */,
 				AE55DA9F2BAC26AB001DA5CC /* Models */,
 				AE296A022B8F2EC900639999 /* Guitar-Explore-Info.plist */,
-				AEA5E1522BADC0B600BC80F1 /* gibson-les-paul-classic-honeyburst-with-case-36276-p-removebg-preview.png */,
 				AED31B772B8E45EE00CE0402 /* Assets.xcassets */,
 				AEF9AFB52BAB504A00703781 /* GoogleSignInMockView.swift */,
+				AE2534E22BB0871F00689CAA /* ApplicationConfig.swift */,
+				AE2534E02BB06FEC00689CAA /* AccountListTile.swift */,
 				AED31B732B8E45EC00CE0402 /* Guitar_ExploreApp.swift */,
 				AE2F3E852BA345C000AF9067 /* RoundedCornerExtension.swift */,
 				AED877162BA0978800329BC6 /* MyBackButton.swift */,
@@ -251,6 +259,7 @@
 				AE2969F12B8F291400639999 /* BrandModel.swift */,
 				AED877142BA0902400329BC6 /* GuitarCard.swift */,
 				AE2969F32B8F29ED00639999 /* BrandData.swift */,
+				AEED25CD2BB0E45700FA8484 /* AuthModel.swift */,
 				AE2969F52B8F2BAB00639999 /* GuitarModel.swift */,
 				AE2969F72B8F2DF100639999 /* CustomFont.swift */,
 				AE296A072B8F337200639999 /* Avatar.swift */,
@@ -386,7 +395,6 @@
 				AE296A002B8F2E9200639999 /* LexendMega-Regular.ttf in Resources */,
 				AED31B782B8E45EE00CE0402 /* Assets.xcassets in Resources */,
 				AE296A012B8F2E9200639999 /* LexendMega-Light.ttf in Resources */,
-				AEA5E1532BADC0B600BC80F1 /* gibson-les-paul-classic-honeyburst-with-case-36276-p-removebg-preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,18 +428,22 @@
 				AED31B742B8E45EC00CE0402 /* Guitar_ExploreApp.swift in Sources */,
 				AEFFF5752B9F718E0040A271 /* PageIndicator.swift in Sources */,
 				AE2969F22B8F291400639999 /* BrandModel.swift in Sources */,
+				AEED25CE2BB0E45700FA8484 /* AuthModel.swift in Sources */,
 				AEF9AFB62BAB504A00703781 /* GoogleSignInMockView.swift in Sources */,
 				AED877152BA0902400329BC6 /* GuitarCard.swift in Sources */,
 				AE2969F42B8F29ED00639999 /* BrandData.swift in Sources */,
 				AE2F3E842BA3444300AF9067 /* GuitarInfoView.swift in Sources */,
 				AED31B9E2B8E4B8200CE0402 /* PrimaryButton.swift in Sources */,
 				AE9D08F22BA3183400966651 /* OnboardingView.swift in Sources */,
+				AE2534E12BB06FEC00689CAA /* AccountListTile.swift in Sources */,
 				AED877172BA0978800329BC6 /* MyBackButton.swift in Sources */,
 				AED8770F2BA086AB00329BC6 /* GuitarHanger.swift in Sources */,
 				AE2F3E862BA345C000AF9067 /* RoundedCornerExtension.swift in Sources */,
 				AE2969F82B8F2DF100639999 /* CustomFont.swift in Sources */,
+				AE2534DF2BB06D2700689CAA /* AccountView.swift in Sources */,
 				AE2969F62B8F2BAB00639999 /* GuitarModel.swift in Sources */,
 				AE55DAA12BAC26B8001DA5CC /* User.swift in Sources */,
+				AE2534E32BB0871F00689CAA /* ApplicationConfig.swift in Sources */,
 				AE296A082B8F337200639999 /* Avatar.swift in Sources */,
 				AE296A0C2B8F458000639999 /* CustomShopView.swift in Sources */,
 				AE2969F02B8F24EC00639999 /* BrandCard.swift in Sources */,
@@ -604,8 +616,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -637,8 +650,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

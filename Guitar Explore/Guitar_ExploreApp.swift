@@ -14,23 +14,23 @@ struct Guitar_ExploreApp: App {
     
     var body: some Scene {
         WindowGroup {
-            GoogleSignInMockView()
+            //            GoogleSignInMockView()
+            //                .environment(repository)
+            //                .onOpenURL { url in
+            //                    GIDSignIn.sharedInstance.handle(url)
+            //                }
+            //                .onAppear {
+            //                    GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
+            //                        // Check if `user` exists; otherwise, do something with `error`
+            //                        //if user exists log user in again and send user to main screen
+            //                        // else throw user to login screen
+            //                    }
+            //                }
+            ContentView()
                 .environment(repository)
                 .onOpenURL { url in
                     GIDSignIn.sharedInstance.handle(url)
                 }
-                .onAppear {
-                    GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
-                        // Check if `user` exists; otherwise, do something with `error`
-                        //if user exists log user in again and send user to main screen
-                        // else throw user to login screen
-                    }
-                }
-            //            ContentView()
-            //                .onOpenURL { url in
-            //                    GIDSignIn
-            //                        .sharedInstance.handle(url)
-            //                }
         }
     }
 }
