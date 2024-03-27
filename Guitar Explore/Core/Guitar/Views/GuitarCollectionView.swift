@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GuitarCollectionView: View {
+    @Environment(GuitarViewModel.self) private var guitarViewModel
     var brand: BrandModel
     private var brandGuitars: [GuitarModel] {
         guitars.filter { guitar in
@@ -49,6 +50,9 @@ struct GuitarCollectionView: View {
             .background(LinearGradient(colors: [.brown1, .brown2], startPoint: .top, endPoint: .bottom))
         }
         .onAppear {
+            // set the currently checked brand
+            guitarViewModel.setExploredBrand(brand: brand)
+            
             // Customize the appearance of the back button here
             let appearance = UINavigationBarAppearance()
             appearance.buttonAppearance.normal.titleTextAttributes = [.foregroundColor: UIColor.black]

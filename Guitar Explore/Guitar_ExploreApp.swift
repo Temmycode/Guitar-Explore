@@ -10,7 +10,10 @@ import GoogleSignIn
 
 @main
 struct Guitar_ExploreApp: App {
-    @State private var repository = AuthenticationViewModel()
+    /// The application should get all the last brand the user just entered and then save it in the AppStorage
+    /// Then we'll get the value from AppStorage when the application is starting and we'll set it to that particular value
+    @State private var authViewModel = AuthenticationViewModel()
+    @State private var guitarViewModel = GuitarViewModel()
     
     var body: some Scene {
         WindowGroup {
@@ -27,7 +30,8 @@ struct Guitar_ExploreApp: App {
             //                    }
             //                }
             ContentView()
-                .environment(repository)
+                .environment(authViewModel)
+                .environment(guitarViewModel)
                 .onOpenURL { url in
                     GIDSignIn.sharedInstance.handle(url)
                 }

@@ -7,23 +7,33 @@
 
 import SwiftUI
 
-struct BrandModel: Identifiable {
+struct BrandModel: Codable, Identifiable {
     var id = UUID()
     var name: Brand
     var createdBy: String
     var year: String
     var logo: String
-    var color: Color
-    
-    var logoImage: Image {
-        Image(logo)
-    }
+    var color: String
 }
 
-enum Brand: String {
+enum Brand: String, Codable {
     case epiphone = "Epiphone"
     case fender = "Fender"
     case prs = "PRS"
     case gibson = "Gibson"
     case yamaha = "Yamaha"
+}
+
+extension BrandModel {
+    var logoImage: Image {
+        get {
+            Image(self.logo)
+        }
+    }
+    
+    var colors: Color {
+        get {
+            Color(self.color)
+        }
+    }
 }

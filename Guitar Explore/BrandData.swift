@@ -8,9 +8,9 @@
 import Foundation
 
 let brands: [BrandModel] = [
-    BrandModel(name: .epiphone, createdBy: "Anastasios Stathopoulos", year: "1873", logo: "Epiphone Logo", color: .white),
-    BrandModel(name: .fender, createdBy: "Leo Fender", year: "1946", logo: "Fender Logo", color: .red1),
-    BrandModel(name: .prs, createdBy: "Paul Reed Smith", year: "1985", logo: "Prs Logo", color: .white),
-    BrandModel(name: .gibson, createdBy: "Orville Gibson", year: "1902", logo: "Gibson Logo", color: .grey1),
-    BrandModel(name: .yamaha, createdBy: "Yamaha Team", year: "1966", logo: "Yamaha Logo", color: .purple1),
+    BrandModel(name: .epiphone, createdBy: "Anastasios Stathopoulos", year: "1873", logo: "Epiphone Logo", color: "White 1"),
+    BrandModel(name: .fender, createdBy: "Leo Fender", year: "1946", logo: "Fender Logo", color: "Red 1"),
+    BrandModel(name: .prs, createdBy: "Paul Reed Smith", year: "1985", logo: "Prs Logo", color: "White 1"),
+    BrandModel(name: .gibson, createdBy: "Orville Gibson", year: "1902", logo: "Gibson Logo", color: "Grey 1"),
+    BrandModel(name: .yamaha, createdBy: "Yamaha Team", year: "1966", logo: "Yamaha Logo", color: "Purple 1"),
 ]

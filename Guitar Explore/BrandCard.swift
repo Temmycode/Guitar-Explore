@@ -23,7 +23,7 @@ struct BrandCard: View {
                     .padding(.bottom, 18.44)
             }
             .frame(width: 350.56, height: 504.39)
-            .background(brand.color)
+            .background(brand.colors)
             .clipShape(
                 RoundedRectangle(cornerRadius: 12)
             )

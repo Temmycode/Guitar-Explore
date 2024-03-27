@@ -16,7 +16,7 @@ struct BrandLogoCard: View {
             .scaledToFit()
             .frame(width: 65)
             .frame(width: 107, height: 34)
-            .background(brand.color)
+            .background(brand.colors)
             .clipShape(RoundedRectangle(cornerRadius: 6))
             .overlay {
                 RoundedRectangle(cornerRadius: 6)

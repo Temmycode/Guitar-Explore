@@ -10,7 +10,7 @@ import SwiftUI
 struct Avatar: View {
     var imageUrl: String?
     var height: CGFloat?
-    //TODO: there should be a model that loads the image from the web of firebase
+    
     var body: some View {
         if let imageUrl = imageUrl {
             AsyncImage(url: URL(string: imageUrl)) { phase in

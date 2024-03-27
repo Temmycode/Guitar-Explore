@@ -43,7 +43,6 @@ struct TabBarView: View {
             RoundedRectangle(cornerRadius: 40)
                 .shadow(color: .black, radius: 0, x: 2, y: 3)
         }
-        
     }
 }
 

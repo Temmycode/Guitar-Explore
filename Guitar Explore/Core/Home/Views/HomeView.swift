@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @Environment(AuthenticationViewModel.self) private var authViewModel
+    @Environment(GuitarViewModel.self) private var guitarViewModel
     @State private var activeBrand = 0
     @State private var accountSheetOpened = false
     
@@ -19,10 +20,9 @@ struct HomeView: View {
                     // MARK: APP BAR
                     appBar
                     
-                    Text("Explore your favourite guitars by brand")
+                    ContinueExploring(brand: guitarViewModel.lastExploredBrand)
                         .customFont(.body)
                         .fontWeight(.medium)
-//                        .frame(maxWidth: 222, alignment: .leading)
                         .padding(.bottom, 4)
                         .padding(.horizontal, 16)
                     
@@ -41,7 +41,7 @@ struct HomeView: View {
     var appBar: some View {
         HStack(spacing: 2) {
             VStack(alignment: .leading) {
-                if let user = authViewModel.user {
+                if authViewModel.user != nil {
                     Text("Welcome Back")
                         .fontWeight(.light)
                 } else {
@@ -102,4 +102,5 @@ struct HomeView: View {
 #Preview {
     HomeView()
         .environment(AuthenticationViewModel())
+        .environment(GuitarViewModel())
 }
