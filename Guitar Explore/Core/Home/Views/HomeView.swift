@@ -83,7 +83,6 @@ struct HomeView: View {
             HStack {
                 ForEach(brands) { brand in
                     BrandCard(brand: brand)
-                        .containerRelativeFrame(.horizontal, count: 1, spacing: 10.0)
                         .scrollTransition { content, phase in
                             content
                                 .opacity(phase.isIdentity ? 1.0 : 0.8)

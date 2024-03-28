@@ -10,6 +10,8 @@ import SwiftUI
 struct BrandCard: View {
     @State var isPressed = false
     var brand: BrandModel
+    let height = UIScreen.main.bounds.size.height
+    let width = UIScreen.main.bounds.size.width
     
     var body: some View {
         NavigationLink {
@@ -18,11 +20,14 @@ struct BrandCard: View {
             VStack(alignment: .center) {
                 Spacer()
                 brand.logoImage
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxWidth: width * 0.61, maxHeight: height * 0.09)
                 Spacer()
                 Text("\(brand.createdBy) in \(brand.year)")
                     .padding(.bottom, 18.44)
             }
-            .frame(width: 350.56, height: 504.39)
+            .frame(width: width * 0.89, height: height * 0.6)
             .background(brand.colors)
             .clipShape(
                 RoundedRectangle(cornerRadius: 12)

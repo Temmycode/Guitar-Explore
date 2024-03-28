@@ -209,6 +209,7 @@
 		AEA5E1502BAD805100BC80F1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AE2534DE2BB06D2700689CAA /* AccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -229,7 +230,6 @@
 				AE296A0B2B8F458000639999 /* CustomShopView.swift */,
 				AE296A092B8F3D1D00639999 /* TabBarView.swift */,
 				AE296A052B8F32E700639999 /* HomeView.swift */,
-				AE2534DE2BB06D2700689CAA /* AccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -277,9 +277,9 @@
 				AE2969F72B8F2DF100639999 /* CustomFont.swift */,
 				AE296A072B8F337200639999 /* Avatar.swift */,
 				AEFFF5742B9F718E0040A271 /* PageIndicator.swift */,
+				AEEB1B6F2BB2EF9A00F55E89 /* ContinueExploring.swift */,
 				AE2969F92B8F2E9200639999 /* Font */,
 				AED31B792B8E45EE00CE0402 /* Preview Content */,
-				AEEB1B6F2BB2EF9A00F55E89 /* ContinueExploring.swift */,
 			);
 			path = "Guitar Explore";
 			sourceTree = "<group>";
