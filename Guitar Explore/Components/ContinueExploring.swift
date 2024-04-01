@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContinueExploring: View {
-    var brand: BrandModel?
+    var brand: Brand?
     
     var body: some View {
         HStack(alignment: .center) {

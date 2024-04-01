@@ -9,8 +9,8 @@ import SwiftUI
 
 struct GuitarCollectionView: View {
     @Environment(GuitarViewModel.self) private var guitarViewModel
-    var brand: BrandModel
-    private var brandGuitars: [GuitarModel] {
+    var brand: Brand
+    private var brandGuitars: [Guitar] {
         guitars.filter { guitar in
             guitar.brand == brand.name
         }

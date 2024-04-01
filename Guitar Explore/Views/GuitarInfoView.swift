@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GuitarInfoView: View {
     @Binding var showGuitarView: Bool
-    var guitar: GuitarModel
+    var guitar: Guitar
     
     var body: some View {
         GeometryReader { geo in

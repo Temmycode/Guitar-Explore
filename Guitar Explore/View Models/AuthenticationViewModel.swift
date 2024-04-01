@@ -24,7 +24,7 @@ import GoogleSignIn
     func signinWithGoogle() {
         GIDSignIn.sharedInstance.signIn(withPresenting: (UIApplication.shared.windows.first?.rootViewController)!) { signInResult, error in
             self.isLoading = true // initialize loading state
-            if let error = error {
+            if error != null {
                 // handle errors
                 return
             }

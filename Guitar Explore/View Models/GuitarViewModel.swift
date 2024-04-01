@@ -9,17 +9,17 @@ import Observation
 import SwiftUI
 
 @Observable class GuitarViewModel {
-    var lastExploredBrand: BrandModel?
+    var lastExploredBrand: Brand?
     
     init() {
         getExploredBrand()
     }
     
-    func setExploredBrand(brand: BrandModel) {
+    func setExploredBrand(brand: Brand) {
         // convert the brand model to an encoded Json Format
         
         do {
-            var encodedBrand = try JSONEncoder().encode(brand)
+            let encodedBrand = try JSONEncoder().encode(brand)
             UserDefaults.standard.setValue(encodedBrand, forKey: "lastExploredBrand")
         } catch {
             print(error.localizedDescription)
@@ -29,7 +29,7 @@ import SwiftUI
     func getExploredBrand() {
         guard let encodedBrand = UserDefaults.standard.data(forKey: "lastExploredBrand") else { return }
         // decode the json from the encodedBrand
-        var brand = try? JSONDecoder().decode(BrandModel.self, from: encodedBrand)
+        let brand = try? JSONDecoder().decode(Brand.self, from: encodedBrand)
         lastExploredBrand = brand
     }
 }

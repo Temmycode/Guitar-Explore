@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BrandCard: View {
     @State var isPressed = false
-    var brand: BrandModel
+    var brand: Brand
     let height = UIScreen.main.bounds.size.height
     let width = UIScreen.main.bounds.size.width
     

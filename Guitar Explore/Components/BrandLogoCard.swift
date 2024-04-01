@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BrandLogoCard: View {
-    var brand: BrandModel
+    var brand: Brand
     
     var body: some View {
         brand.logoImage

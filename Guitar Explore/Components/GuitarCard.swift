@@ -9,7 +9,7 @@ import SwiftUI
 
 struct GuitarCard: View {
     @State var showGuitarView: Bool = false
-    var guitar: GuitarModel
+    var guitar: Guitar
     
     var body: some View {
         ZStack {
